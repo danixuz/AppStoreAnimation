@@ -14,6 +14,9 @@
 		33752B6F28313AD90010407E /* AppStoreAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33752B6E28313AD90010407E /* AppStoreAnimationTests.swift */; };
 		33752B7928313AD90010407E /* AppStoreAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33752B7828313AD90010407E /* AppStoreAnimationUITests.swift */; };
 		33752B7B28313AD90010407E /* AppStoreAnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33752B7A28313AD90010407E /* AppStoreAnimationUITestsLaunchTests.swift */; };
+		33752B8928313B270010407E /* Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33752B8828313B270010407E /* Today.swift */; };
+		33752B8B28313FA60010407E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33752B8A28313FA60010407E /* Home.swift */; };
+		33752B8E2831430E0010407E /* CustomCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33752B8D2831430E0010407E /* CustomCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		33752B7428313AD90010407E /* AppStoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppStoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33752B7828313AD90010407E /* AppStoreAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAnimationUITests.swift; sourceTree = "<group>"; };
 		33752B7A28313AD90010407E /* AppStoreAnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreAnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33752B8828313B270010407E /* Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Today.swift; sourceTree = "<group>"; };
+		33752B8A28313FA60010407E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		33752B8D2831430E0010407E /* CustomCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,8 @@
 		33752B5C28313AD90010407E /* AppStoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				33752B8C283143000010407E /* View */,
+				33752B8728313AF80010407E /* Model */,
 				33752B5D28313AD90010407E /* AppStoreAnimationApp.swift */,
 				33752B5F28313AD90010407E /* ContentView.swift */,
 				33752B6128313AD90010407E /* Assets.xcassets */,
@@ -125,6 +133,23 @@
 				33752B7A28313AD90010407E /* AppStoreAnimationUITestsLaunchTests.swift */,
 			);
 			path = AppStoreAnimationUITests;
+			sourceTree = "<group>";
+		};
+		33752B8728313AF80010407E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33752B8828313B270010407E /* Today.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33752B8C283143000010407E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33752B8A28313FA60010407E /* Home.swift */,
+				33752B8D2831430E0010407E /* CustomCorner.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				33752B6028313AD90010407E /* ContentView.swift in Sources */,
+				33752B8E2831430E0010407E /* CustomCorner.swift in Sources */,
+				33752B8928313B270010407E /* Today.swift in Sources */,
+				33752B8B28313FA60010407E /* Home.swift in Sources */,
 				33752B5E28313AD90010407E /* AppStoreAnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
