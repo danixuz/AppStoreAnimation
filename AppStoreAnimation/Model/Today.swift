@@ -22,7 +22,7 @@ struct Today: Identifiable {
 var todayItems: [Today] = [
     
     Today(appName: "LEGO Brawls", appDescription: "Battle with friends online", appLogo: "Logo1", bannerTitle: "Smash your rivals in LEGO Brawls", platformTitle: "Apple Arcade", artwork: "Post1"),
-    Today(appName: "Forza Horizon", appDescription: "Racing Game", appLogo: "Logo2", bannerTitle: "You're in charge of the Horizon Festival", platformTitle: "Apple Arcade", artwork: "Post2"),
+    Today(appName: "Forza Horizon", appDescription: "Racing Game", appLogo: "Logo2", bannerTitle: "Drive at top speeds around the world", platformTitle: "Apple Arcade", artwork: "Post2"),
     Today(appName: "Spider-Man 2", appDescription: "Open World", appLogo: "Logo3", bannerTitle: "Become a hero and save the city", platformTitle: "Apple Arcade", artwork: "Post3")
 ]
 

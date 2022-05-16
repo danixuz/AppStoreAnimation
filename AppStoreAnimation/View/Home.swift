@@ -180,7 +180,7 @@ struct Home: View {
                         
                     } label: {
                         Label {
-                            Text("Share")
+                            Text("Share Story")
                         } icon: {
                             Image(systemName: "square.and.arrow.up")
                         }
